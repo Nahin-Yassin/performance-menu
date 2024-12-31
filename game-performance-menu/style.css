@@ -1,0 +1,339 @@
+@import url(https://db.onlinewebfonts.com/c/b942f5022c0006bf5a2bae065a5a4896?family=Hurme+Geometric+Sans+3+W03+Blk);
+@import url(https://db.onlinewebfonts.com/c/a1064a651347180bcb010c3673903bff?family=D);
+@import url(https://db.onlinewebfonts.com/c/a92bf9acfd4c9b1d90591038ae5d8d2c?family=MANLight);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: url("./imgs/TC2ChevroletCamaroSS.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.header {
+    padding: 50px;
+    width: 100%;
+    height: 50px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+
+}
+
+.title {
+    font-family: "Hurme Geometric Sans 3 W03 Blk";
+    color: #20232A;
+    font-size: 50px;
+}
+
+.sub-title {
+    position: relative;
+    top: 15px;
+    left: 4px;
+    font-family: "D";
+    font-size: 13px;
+    color: #B6B6B7;
+    letter-spacing: 2px;
+}
+
+.extras-container_one {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.popular {
+    font-family: "Hurme Geometric Sans 3 W03 Blk";
+    color: #ffffff;
+    font-size: 20px;
+    background: #F91258;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+.num-followers {
+    display: flex;
+    align-items: center;
+    color: #25282B;
+    font-size: 23px;
+    font-family: "Hurme Geometric Sans 3 W03 Blk";
+}
+
+.followers {
+    font-family: "MANLight";
+    font-size: 22px;
+    gap: 2px;
+
+}
+
+.num-followers img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.extras-container_two {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.bb {
+    display: flex;
+    align-items: center;
+    color: #25282B;
+    font-size: 22px;
+    font-family: "Hurme Geometric Sans 3 W03 Blk";
+}
+
+.bb img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+.cc {
+    display: flex;
+    align-items: center;
+    color: #3EFFF6;
+    font-size: 22px;
+    font-family: "Hurme Geometric Sans 3 W03 Blk";
+}
+
+.cc img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+.gear {
+    display: flex;
+    align-items: center;
+    color: #C58137;
+    font-size: 22px;
+    font-family: "Hurme Geometric Sans 3 W03 Blk";
+}
+
+.gear img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+.car-contents {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.option-name {
+    padding: 20px;
+    font-family: "Hurme Geometric Sans 3 W03 Blk";
+    color: #ffffff;
+    font-size: 80px;
+}
+
+.info-container {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    color: white;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.info-top {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.info-top-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.perf {
+    display: flex;
+    font-family: "MANLight";
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.perf-num {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    font-family: "Hurme Geometric Sans 3 W03 Blk";
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+.perf-meter {
+    position: relative;
+    bottom: 30px;
+    font-size: 40px;
+}
+
+.lvl-img {
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+
+small {
+    font-family: "MANLight";
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.info-middle {
+    position: relative;
+    bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    font-family: "MANLight";
+}
+
+.bar {
+    width: 155px;
+    height: 3.5px;
+    background: white;
+    border-radius: 10px;
+}
+
+.bar-1 {
+    width: 300px;
+    height: 1px;
+    background: white;
+    border-radius: 10px;
+}
+
+.circle {
+    position: relative;
+    bottom: 6px;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%
+}
+
+.handle {
+    font-family: "MANLight";
+    font-size: 20px;
+    color: #B6B6B7;
+    padding: 5px;
+}
+
+.mode {
+    font-family: "MANLight";
+    font-size: 15px;
+    color: #B6B6B7;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-bottom {
+    position: relative;
+    bottom: 40px;
+    font-family: "MANLight";
+    font-size: 15px;
+    color: #B6B6B7;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info-bottom p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-bottom span {
+    color: #fff;
+    font-family: "Hurme Geometric Sans 3 W03 Blk";
+
+}
+
+.control-bar {
+    width: 100%;
+    height: 80px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: "MANLight";
+    font-size: 10px;
+    color: #000000;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.control-bar span {
+    font-family: "Hurme Geometric Sans 3 W03 Blk";
+    font-size: 10px;
+    color: #fff;
+    background: #000000;
+    letter-spacing: 2px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.live-perks {
+    position: relative;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 15px;
+}
+
+.live-perks img {
+    transition: all 0.3s ease-in-out;
+
+}
+
+.live-perks img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.live-perks img:after {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+}
